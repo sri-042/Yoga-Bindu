@@ -1,0 +1,76 @@
+h1{
+  color: blue;
+  text-align: center;
+}
+#YogaImg{
+  float: right;
+ border-width: 2px;
+  border-style: solid;
+  border-color: lightsteelblue;
+}
+
+.Color{
+  color: rgb(242,33,207);
+}
+.Time{
+  text-align:left;
+  color: orange;
+}
+.T{
+  text-align:left;
+  font-size: 18pt;
+  color: green;
+}
+.click{
+  font-size: 18pt;
+  color: blue;
+}
+.click:link{
+  color: #000000;
+}
+.click:active{
+  color: red;
+}
+.click:hover{
+  color: green;
+}
+.click:visited{
+  color: purple;
+}
+#Flexibility{
+  float: ;
+}
+.background{
+  background-color: lightblue;
+}
+.body{
+  background-image: url("https://miro.medium.com/max/11630/0*C5Y8W-6e9OVIB3AM.jpg");
+}
+#andiv{
+  text align: center;
+  
+  height: 100px;
+  animation: animation_name 1s infinite;
+}
+@-webkit-keyframes animation_name{
+  from{
+    background-color: pink;
+  }
+  to{
+    background-color: lightblue;
+  }
+  to{
+    background-color: yellow;
+  }
+}
+@keyframes animation_name{
+  from{
+    background-color: pink;
+  }
+  to{
+    background-color: lightblue;
+  }
+  to{
+    background-color: yellow;
+  }
+}
