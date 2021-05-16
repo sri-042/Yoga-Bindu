@@ -52,7 +52,7 @@ h1{
   height: 100px;
   animation: animation_name 1s infinite;
 }
-@-webkit-keyframes animation_name{
+/* @-webkit-keyframes animation_name{
   from{
     background-color: pink;
   }
@@ -65,12 +65,12 @@ h1{
 }
 @keyframes animation_name{
   from{
-    background-color: pink;
-  }
-  to{
+     background-color: pink;
+ }
+to{
     background-color: lightblue;
   }
   to{
     background-color: yellow;
   }
-}
+} */
