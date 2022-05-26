@@ -1,0 +1,181 @@
+    /*Dark Mode*/
+body{
+    background-color: rgb(250, 237, 249);
+    color: black;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+/*.dark-mode {
+  background-color: black;
+  color: white;
+}*/
+h1{
+    background-color: rgb(252, 197, 125);
+    text-align: center;
+    font-size: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin: none;
+}
+a{
+    text-decoration: none;
+    font-size: x-large;
+    padding: 2%;      
+}
+
+a.hover, a.visited{
+    color: tomato;
+}
+.options{
+    background-color: rgb(221, 255, 255);
+    text-align: center;
+    padding: 1.5%;
+}
+p{
+    font-size: 30px;
+    font-style:initial;
+    margin-top: 15px;
+    padding: 2%;
+    line-height: 1.6;
+}
+.logo{
+    padding-top: 0%;
+    margin :0%;
+    width : 10%;
+    position: absolute;
+
+}
+
+/* Slide Show */
+* {box-sizing: border-box;}
+    body {font-family: Verdana, sans-serif;}
+    .mySlides {display: none;}
+    img {vertical-align: middle;}
+    
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      padding-top: 20px;
+      margin: auto;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+    
+    .active {
+      background-color: #717171;
+    }
+    
+    /* Fading animation */
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    
+    @-webkit-keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+      .text {font-size: 11px}
+    }
+
+    /*Video styling*/
+    .video{
+          margin-top: 20px;
+          padding-left: 20%;
+    }
+    video{
+      border-style: ridge;
+      border-color: black;
+      border-radius: unset;
+    }
+    fieldset{
+      font-size: 25px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      margin-top: 3%;
+      margin-left: 20%;
+      border-style:double;
+      border-width: 5px;
+      border-color: rgb(0, 0, 0);
+      max-width: 55%;
+    }
+    ul{
+      font-size: 25px;
+      margin-left: 20%;
+      border: double;
+      border-color: black;
+      border-width: 3px;
+      max-width: 50%;
+      background-color: rgb(255, 221, 221);
+    }
+    #Img{
+      float: right;
+      height: 400px;
+      width: 500px;
+    }
+
+    button{
+      float: right;
+      width: 100px;
+      height: 75px;
+    }
+
+    .Welcome{
+      margin: 20px;
+      margin-bottom: 0%;
+      padding-right: 20px;
+      border:rgb(73, 236, 236),solid,2.5px;
+      font-size: 20px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      background-color: lemonchiffon;
+    }
+
+    #Karma,#Raja{
+      width: 30%;
+      height: 40%;
+      float: left;
+      margin: 20px;
+      border: solid, green,2%;
+    }
+
+    .About,.Karma,.Bhakti,.Raja,.Jnana{
+      font-size: x-large;
+      font-family: cursive;
+      margin: 5px;
+      justify-content: space-between;
+    }
+
+    #Bhakti,#Jnana{
+      width: 30%;
+      height: 30%;
+      float: right;
+      margin: 10px;
+      margin-left: 20px;
+      border: solid, green,2px;
+    }
+
+    h2{
+      font-size: 36px;
+      margin: 10px;
+      padding-left: 40%;
+    }

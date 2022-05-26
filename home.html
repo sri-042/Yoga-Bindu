@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga Bindu</title>
+    <link rel="stylesheet" href="stylehome.css">
+</head>
+
+<body>
+<!--  <button onclick="myFunction()">Toggle dark mode</button> -->
+  <script>
+    function myFunction() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+    </script>
+    <div class="logo">
+        <img src="https://www.bing.com/th?id=OIP.dmEJ89DvTTCtIrZhWUbjSwHaHa&w=96&h=95&c=8&rs=1&qlt=90&o=6&dpr=1.38&pid=3.1&rm=2" width="100%">
+    </div>
+    <h1 ><centr>Yoga Bindu</centr></h1>
+    <div class="options">   
+    <a href="/welcome.html">Welcome</a>
+    <a href="/about.html">About</a>
+    <a href="/benifits.html">Benifits</a>
+    <a href="/register.html">Registration</a>
+    <a href="/glimpse.html">Glimpse of Yoga Bindu</a>
+    <a href="/contact.html">Contact Details</a>
+</div>
+    </head>
+    <body>    
+    <div class="slideshow-container">
+    
+    <div class="mySlides fade">
+        <img src="/images/Yoga Bindu.jpeg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="images/Mom Namaskar.JPG" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="images/Sri Namaskar.JPG" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+        <img src="images/Yoga.jpeg" style="width:100%">
+      </div>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+    
+    <script>
+    var slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 6000); // Change image every 2 seconds
+    }
+    </script>
+<!--Done with the home page-->
+ <!--Welcome page-->
+<!-- 
+ <h1>Welcome to Yoga Bindu</h1>
+ <p style="background-color:white;width: 50%; position: center;text-align: justify;"> This is an organization which is envisaged to maintain one's good physical and mental state. The yoga classes 
+     are conducted in "Akkamahadevi Samaja, Akkamahadevi Samaja Road,
+     Kumarapark West, Bangalore". <br><br>
+     The genral class timings are : <br>
+     Morning Batch : 6.00 a.m. to 7.00 a.m.<br>
+     Evening Batch : 5.00 p.m. to 6.00 p.m. <br><br>
+    
+    House visiting near Seshadripuram only.<br>
+    Yoga specialist for pregnant ladies.</p><br> <br> <br>
+    <a href="/home.html">Home</a>
+-->
+<!--About page
+<div class="about">
+<h1>About Yoga</h1>
+<img style="position: center;" src="https://i.ytimg.com/vi/2EyAhZnGP1Y/maxresdefault.jpg" width="50%">
+<p style="width: 100%;text-align: justify;"> This is an organization which is envisaged to maintain one's good physical and mental state. The yoga classes 
+    are conducted in "Akkamahadevi Samaja, Akkamahadevi Samaja Road,
+    Kumarapark West, Bangalore". <br><br>
+    The genral class timings are : <br>
+    Morning Batch : 6.00 a.m. to 7.00 a.m.<br>
+    Evening Batch : 5.00 p.m. to 6.00 p.m. <br><br>
+   
+   House visiting near Seshadripuram only.<br>
+   Yoga specialist for pregnant ladies.</p><br><br>
+  </div>
+  <a href="home.html">Home</a>
+-->
+  <!--Benefits
+
+  <h1>Benifits of doing Yoga</h1>
+  <ul>
+ <li> Reduces stress</li>
+  <li>maintains balance</li>
+</ul>
+-->
+  <!-- Registration part
+<div class="register">
+<h1>Registration to Yoga Bindu</h1>
+<p> To become a part of our yoga family, register yourself in the below link. We will get back to you about the details of the classes within a day or two.<br><br>Looking forward to have you in our family soon !!</p>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSezATU1A-OAtp1PvomKob0xq2LNn60lR7a3rH21VXZK9rsjJA/viewform?usp=sf_link" style="color: wheat; background-color: brown;margin-left: 40%;"> Click here for registering </a>
+</div>
+<a href="home.html">Home</a>
+ -->
+<!--Glimpses of Yoga Bindu
+
+<h1>Glimpses of Yoga Bindu</h1>
+<div class="video">
+<video width="1000" height="750" controls>
+    <source src="Yoga Day 2021.mp4" type="video/mp4">
+ </video>
+</div>
+<a href="home.html">Home</a>
+-->
+<!--Contact Details 
+
+<h1> Contact Details </h1>
+<fieldset>
+    <legend>Contact details</legend>
+    <ul><b><u><em>Name</em></u></b> : Veena Sriman </ul>
+    <ul><b><u><em>Contact No.</em></u></b> : 9845553155</ul>
+    <ul><b><u><em>Mail ID</em></u></b> : <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSBncPMcCfpcMCgcmgcFJxWpTFdmGJKWpfWXbqKhVnJBnbksJGjJbzGJrvfcQmzpbQNQtNfh">veenasriman@gmail.com</a>  </ul>
+    <ul><b><u><em>Address of yoga class</em></u></b> : Akkamahadevi Samaja next to water reservoir station.</ul>
+</fieldset>
+<a href="home.html">Home</a>
+-->
+</body>
+</html>
